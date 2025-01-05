@@ -34,7 +34,7 @@ def main():
     parser.add_argument('-f', '--file', type=str, help='Path to the text file containing names (first last).')
     parser.add_argument('-n', '--name', nargs=2, metavar=('FIRST_NAME', 'LAST_NAME'), 
                         help='First and last name to generate email addresses.')
-    parser.add_argument('-d', '--domain', type=str, required=True, help='Email domain (e.g., tibco.com).')
+    parser.add_argument('-d', '--domain', type=str, required=True, help='Email domain (e.g., domain.com).')
 
     args = parser.parse_args()
 
